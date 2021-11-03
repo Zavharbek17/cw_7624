@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cw1_Cloud_7624.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace Cw1_Cloud_7624.Repository
         void UpdateProduct(Product product);
         void DeleteProduct(int productId);
         Product GetProductById(int id);
-        IEnumerable<Product> GetProduct();
+        IEnumerable<Product> GetProducts();
 
 
     }

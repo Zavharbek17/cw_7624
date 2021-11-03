@@ -27,3 +27,7 @@ C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\obj\Debug\net5.0\
 C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\obj\Debug\net5.0\ref\Cw1_Cloud_7624.dll
 C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\obj\Debug\net5.0\Cw1_Cloud_7624.pdb
 C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\obj\Debug\net5.0\Cw1_Cloud_7624.genruntimeconfig.cache
+C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Zavharbek\Desktop\Cloud\Cw1_Cloud_7624\Cw1_Cloud_7624\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
