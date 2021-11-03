@@ -10,6 +10,7 @@ namespace Cw1_Cloud_7624.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-
+        public decimal Price { get; set; }
+        public Category ProductCategory { get; set; }
     }
 }
