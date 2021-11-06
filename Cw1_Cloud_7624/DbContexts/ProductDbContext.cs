@@ -7,9 +7,9 @@ using Cw1_Cloud_7624.Model;
 
 namespace Cw1_Cloud_7624.DbContexts
 {
-    public class ProductContext: DbContext
+    public class ProductDbContext: DbContext
     {
-        public ProductContext(DbContextOptions<ProductContext> options) : base(options)
+        public ProductDbContext(DbContextOptions<ProductDbContext> options) : base(options)
         {
 
         }

@@ -9,10 +9,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Cw1_Cloud_7624.Repository
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
-        private readonly ProductContext _dbContext;
-        public ProductRepository(ProductContext dbContext)
+        private readonly ProductDbContext _dbContext;
+        public ProductRepository(ProductDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -25,12 +25,12 @@ namespace Cw1_Cloud_7624.Repository
         public Product GetProductById(int productId)
         {
             var prod = _dbContext.Products.Find(productId);
-            _dbContext.Entry(prod).Reference(s => s.ProductCategory).Load();
+            _dbContext.Entry(prod).Reference(s => s.Category).Load();
             return prod;
         }
         public IEnumerable<Product> GetProducts()
         {
-            return _dbContext.Products.Include(s => s.ProductCategory).ToList();
+            return _dbContext.Products.Include(s => s.Category).ToList();
         }
         public void InsertProduct(Product product)
         {
