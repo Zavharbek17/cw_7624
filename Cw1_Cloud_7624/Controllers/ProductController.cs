@@ -26,9 +26,9 @@ namespace Cw1_Cloud_7624.Controllers
         {
             var products = _productRepository.GetProducts();
             return new OkObjectResult(products);
-        }
+        }   
         // GET: api/Product/{id}
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetProduct")]
         public IActionResult Get(int id)
         {
             var product = _productRepository.GetProductById(id);
